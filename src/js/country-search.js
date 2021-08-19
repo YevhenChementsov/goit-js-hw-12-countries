@@ -26,7 +26,7 @@ function onCountrySearch (event) {
       if (country.length >= 2 && country.length <= 10) {
         info({
           title: 'Info',
-          delay: 500,
+          delay: 1500,
           text: "keep searching and you'll find your country!",
         });
         return renderCountryList(country);
@@ -34,7 +34,7 @@ function onCountrySearch (event) {
       if (country.length > 10) {
         notice({
           title: 'Notice',
-          delay: 500,
+          delay: 1500,
           type: 'notice',
           text: 'Too many matches found. Please enter a more specific query!',
         });
@@ -42,7 +42,7 @@ function onCountrySearch (event) {
       if (country.status === 404) {
         error({
           title: 'Error',
-          delay: 2000,
+          delay: 3000,
           type: 'error',
           text: 'Wrong input!',
         });
