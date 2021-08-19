@@ -31,12 +31,11 @@ img {
 }
 
 .js-container {
+  display: block;
   position: relative;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 15px;
   margin-right: auto;
-  margin-left: auto;
-  width: 720px;
+  width: 767px;
 
   &__input {
     top: 140px;
@@ -48,7 +47,7 @@ img {
 .country-input {
   margin: 15px 0;
   height: 50px;
-  width: 460px;
+  width: 256px;
   border-radius: 30px;
   padding-left: 10px;
   border: 2px solid #000000;
@@ -66,12 +65,11 @@ img {
 }
 
 form {
-  display: flex;
   padding: 20px;
-  justify-content: center;
 }
 
 .country-card {
+  padding: 20px;
 
   &__name {
     margin-top: 15px;
