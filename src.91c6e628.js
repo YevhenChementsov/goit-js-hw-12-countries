@@ -3,7 +3,7 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"clu1":[function(require,module,exports) {
 
 },{"@pnotify/core/dist/PNotify.css":"AjW3","@pnotify/core/dist/BrightTheme.css":"AjW3"}],"irxn":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;const e="https://restcountries.eu/rest/v2";function t(t){return fetch(`${e}/name/${t}`).then(e=>e.json())}var r={fetchCountries:t};exports.default=r;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;const e="https://restcountries.com/v3.1";function t(t){return fetch(`${e}/name/${t}`).then(e=>e.json())}var o={fetchCountries:t};exports.default=o;
 },{}],"pAws":[function(require,module,exports) {
 var define;
 var global = arguments[3];
@@ -26,4 +26,4 @@ var t=arguments[3],e="Expected a function",n=NaN,r="[object Symbol]",i=/^\s+|\s+
 },{"@pnotify/core":"txz9","../js/fetchCountries":"irxn","./markup":"tW6H","lodash.debounce":"PZFh"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/fetchCountries"),require("./js/markup"),require("./js/country-search");
 },{"./sass/main.scss":"clu1","./js/fetchCountries":"irxn","./js/markup":"tW6H","./js/country-search":"X1xb"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-12-countries/src.e9de9f13.js.map
+//# sourceMappingURL=/goit-js-hw-12-countries/src.91c6e628.js.map
